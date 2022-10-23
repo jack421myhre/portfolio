@@ -1,0 +1,46 @@
+/* FONT SIZES */
+
+
+body {
+    max-width: 90%;
+    margin: 0 auto;
+}
+/* HEADER AND NAV SECTION */
+.header {
+    border: 1px solid blue;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 24px;
+}
+
+nav {
+    border: 1px solid red;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+}
+
+.nav li {
+    padding: 12px 32px;
+}
+
+/* ABOUT ME SECTION */
+.about-me-container {
+    border: 1px solid green;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+.about-me-title {
+    border-right: 4px solid black;
+}
+
+.about-me-content {
+    border: 1px solid purple;
+    padding: 12px;
+    /* KEEP IT CONSISTENT */
+    max-width: 600px;
+}
